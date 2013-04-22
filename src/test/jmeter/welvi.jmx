@@ -46,7 +46,7 @@
             <idleTime>true</idleTime>
           </value>
         </objProp>
-        <stringProp name="filename">/home/jaloare/Welvi/test.csv</stringProp>
+        <stringProp name="filename">test.csv</stringProp>
       </ResultCollector>
       <hashTree/>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Login-Logout" enabled="true">
