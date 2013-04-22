@@ -120,7 +120,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="j_username" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">${_StringFromFile(data/user.txt)}</stringProp>
+                <stringProp name="Argument.value">${_StringFromFile(src/test/jmeter/data/user.txt)}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">j_username</stringProp>
@@ -140,7 +140,7 @@
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
           <stringProp name="HTTPSampler.protocol"></stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">${EXTENSION}/user/login</stringProp>
+          <stringProp name="HTTPSampler.path">${EXTENSION}/user/login/</stringProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
