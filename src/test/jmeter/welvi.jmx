@@ -37,6 +37,11 @@
             <stringProp name="Argument.value">1</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
+          <elementProp name="DIR" elementType="Argument">
+            <stringProp name="Argument.name">DIR</stringProp>
+            <stringProp name="Argument.value">/src/test/jmeter/data/</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
         </collectionProp>
       </elementProp>
       <stringProp name="TestPlan.user_define_classpath"></stringProp>
@@ -120,14 +125,14 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="j_username" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">${_StringFromFile(src/test/jmeter/data/user.txt)}</stringProp>
+                <stringProp name="Argument.value">${_StringFromFile(${DIR}user.txt)}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">j_username</stringProp>
               </elementProp>
               <elementProp name="j_password" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">${_StringFromFile(data/pass.txt)}</stringProp>
+                <stringProp name="Argument.value">${_StringFromFile(${DIR}pass.txt)}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">j_password</stringProp>
