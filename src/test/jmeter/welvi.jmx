@@ -39,7 +39,7 @@
           </elementProp>
           <elementProp name="DIR" elementType="Argument">
             <stringProp name="Argument.name">DIR</stringProp>
-            <stringProp name="Argument.value">/home/jaloare/Welvi/welvi/</stringProp>
+            <stringProp name="Argument.value">src/test/jmeter/data/</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
